@@ -97,8 +97,20 @@ https://www.npmjs.com/package/yargs
 
 > `npm i yargs`
 
+## Video 35 Configuracion de Yargs.
 
+Vamos a la documentacion de Yargs https://yargs.js.org/docs/
+y buscamos a options https://yargs.js.org/docs/#api-reference-optionkey-opt
 
+Vamos a ejecutar la aplicacion a traves de 
+
+Si queremos crear el archivo de las tablas del **10** pero QUEREMOS
+listarlo en la consola
+> `node app.js -b 10` 
+
+Si queremos crear el archivo de las tablas del **10** pero NO 
+QUEREMOS listarlo en la consola
+> `node app.js -b 10 -l` 
 
 
 

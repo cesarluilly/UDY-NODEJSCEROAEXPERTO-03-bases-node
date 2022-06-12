@@ -5,22 +5,23 @@ const fs = require('fs');
 
 //  //Lo que queremos es grabar la tabla de multiplicar.
 
-const crearArchivo = async ( base = 5) => {
+const crearArchivo = async ( base = 5, listar = false) => {
     try {
-        console.log('=================================');
-        console.log('Tabla del:', base);
-        console.log('=================================');
-
+        
         let salida = '';
-
-
+        
+        
         for (let i = 0; i <= 10; i++) {
             salida += `${base } x ${i} = ${base * i}\n`;
         }
-
-        console.log(salida);
-
-
+        
+        if (listar) {
+            console.log('=================================');
+            console.log('Tabla del:', base);
+            console.log('=================================');
+            console.log(salida);
+        }
+        
         //  //Este metodo recibe un callback que se va a ejecutar cuando
         //  //  todo esto termine.
         fs.writeFileSync(`tabla-${base}.txt`, salida);

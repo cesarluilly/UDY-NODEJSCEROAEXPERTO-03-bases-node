@@ -15,7 +15,7 @@ https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fswritefilefile-data-optio
 ## Video 31 Importar archivos
 Separamos en modulo para parte de crear archivo de nuestro app.js y lo convertimos en una promesa.
 
-# Video 32 Recibir informacion desde la linea de comando
+## Video 32 Recibir informacion desde la linea de comando
 Ahora veremos como recibir informacion de consola y es a traves de lo siguiente a traves de **process.argv**
 ```
 const [ , ,arg3 = 'base=5'] = process.argv;
@@ -30,7 +30,7 @@ Pero esto trae inconvenientes, por la posicion del arreglo en
 donde caiga nuestro parametro --base=10 validaciones para el 
 splits
 
-# Video 33 package.json - init - install - uninstall
+## Video 33 package.json - init - install - uninstall
 
 npm que es un gestor de paquetes de nodejs. es recomendable 
 trabajar siempre con paquetes que tenga un numero alto de 
@@ -87,8 +87,15 @@ lo hacemos poniendo `@version`. (esto seria por ejemplo que la version nueva no 
 
 Pero lo mejor seria actualizarlas manualemente.
 
+## Video 34 Yargs
 
+Yarg es un paquete superpopular que utilizan muchas librerias, 
+muchos paquetes de manera implicita.
 
+Vamos a la documentacion para conocer mas de este paquete
+https://www.npmjs.com/package/yargs
+
+> `npm i yargs`
 
 
 

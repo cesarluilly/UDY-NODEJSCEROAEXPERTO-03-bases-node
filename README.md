@@ -112,6 +112,18 @@ Si queremos crear el archivo de las tablas del **10** pero NO
 QUEREMOS listarlo en la consola
 > `node app.js -b 10 -l` 
 
+Para obtener informacion de ayuda de nuestra aplicacion no hacemos de la
+siguiente manera
+> `node app --help` 
+
+![apphelp](./imgReadme/apphelp.jpg)
+
+## Video 36 Configuracion de Yargs independiente
+
+Ahora la configuracion que teniamos en app.js de yargs la vamos a mover a otro lugar para tener una 
+configuracion de Yargs independiente.
+
+## Video 37 Colores de la consola
 
 
 

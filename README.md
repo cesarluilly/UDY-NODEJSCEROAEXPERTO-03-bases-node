@@ -30,6 +30,64 @@ Pero esto trae inconvenientes, por la posicion del arreglo en
 donde caiga nuestro parametro --base=10 validaciones para el 
 splits
 
+# Video 33 package.json - init - install - uninstall
+
+npm que es un gestor de paquetes de nodejs. es recomendable 
+trabajar siempre con paquetes que tenga un numero alto de 
+descargas.
+
+* A partir cuando creemos proyectos de node siempre vamos a ejecutar el siguiente comando
+> `npm init`
+
+y esto nos va a crear nuestro package.json
+
+Si yo en package.json agrego **base3 y lo que contiene**
+```json
+"scripts": {
+    "base3": "node app --base=3"
+  },
+```
+
+Entonces yo en la consola lo ejecutaria de la siguiente manera 
+`npm run base3`
+
+### Vamos a instalar el repositorio de colors
+https://www.npmjs.com/package/colors
+
+Ejecutamos el comando 
+
+> `npm install colors`
+
+### Vamos a instalar nodemon pero que sea solo de desarrollo
+
+Ahora vamos a instalar nodemon para desarrollo pero no
+como dependencia del proyecto, ya que nodemon solo nos va 
+a servir a nostros los desarrolladores.
+
+Para eso ejecutamos.
+> `npm install nodemon --save-dev`
+
+**La bandera `--save-dev`** sirve para que se instale como 
+dependencia de desarrollador y no como dependencia de proyecto 
+y esto hace que se agregue al package.json.
+
+![nodemonInstall](./imgReadme/nodemonInstall.jpg)
+
+* Ahora si queremos desintalar la dependencia de nodemon lo hariamos:
+
+> npm uninstall nodemon
+
+* Si yo quiero instalar una version en especifica de un paquete, 
+lo hacemos poniendo `@version`. (esto seria por ejemplo que la version nueva no funciona como deberia de ser, etc y por eso necesitamos instalar una version especifica)
+
+> `npm install colors@1.0.0`
+
+* Tambien para actualizar las dependencias a su ultima version utilizamos
+> `npm update`
+
+Pero lo mejor seria actualizarlas manualemente.
+
+
 
 
 

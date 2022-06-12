@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Excluir archivos generados al correr la aplicacion.
+/salida/*.txt

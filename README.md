@@ -135,9 +135,20 @@ Si presionamos
 
 ![appHelp2](./imgReadme/appHelp2.jpg)
 
+## Video 39 Prepara repositorio y algunas correciones de donde almacenar nuestros archivos
 
+Se iso la correcion para que los archivos se guarden en el directorio `salida`.
 
+Agregamos al gitignore lo siguiente para no subir archivos que se generan al correr la aplicacion.
 
+```md
+# Excluir archivos generados al correr la aplicacion.
+/salida/*.txt
+```
+
+Si se clona el repositorio, para construir de nuevo los
+modulos de node ejecutamos el siguiente comando.
+> `npm install`
 
 
 

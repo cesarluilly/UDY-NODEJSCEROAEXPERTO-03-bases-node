@@ -1,4 +1,5 @@
 const fs = require('fs');
+const colors = require('colors');
 
 //  //Vamos a ir a la documentacion de filesystem.
 //  //https://nodejs.org/dist/latest-v16.x/docs/api/fs.html#fswritefilefile-data-options-callback
@@ -12,13 +13,13 @@ const crearArchivo = async ( base = 5, listar = false) => {
         
         
         for (let i = 0; i <= 10; i++) {
-            salida += `${base } x ${i} = ${base * i}\n`;
+            salida += `${base } ${'x'.green} ${i} = ${base * i}\n`;
         }
         
         if (listar) {
-            console.log('=================================');
-            console.log('Tabla del:', base);
-            console.log('=================================');
+            console.log('================================='.green);
+            console.log('Tabla del:'.green, colors.blue(base));
+            console.log('================================='.green);
             console.log(salida);
         }
         

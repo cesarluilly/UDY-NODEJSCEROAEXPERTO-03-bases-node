@@ -125,6 +125,8 @@ configuracion de Yargs independiente.
 
 ## Video 37 Colores de la consola
 
+Jugar para que en la consola pongamos diferentes colores. 
+Importante ver la documentacion para ver como se utiliza.
 
 
 

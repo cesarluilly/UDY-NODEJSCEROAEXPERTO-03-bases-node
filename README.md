@@ -135,6 +135,9 @@ Si presionamos
 
 ![appHelp2](./imgReadme/appHelp2.jpg)
 
+## Video 38 Tarea: Tabla hasta X
+Se agrega una nueva opcion para recibir el parametro -h y liste la tabla de multiplicar hasta cierto numero.
+
 ## Video 39 Prepara repositorio y algunas correciones de donde almacenar nuestros archivos
 
 Se iso la correcion para que los archivos se guarden en el directorio `salida`.

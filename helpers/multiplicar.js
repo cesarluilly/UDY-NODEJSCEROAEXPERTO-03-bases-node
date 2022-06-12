@@ -6,21 +6,22 @@ const colors = require('colors');
 
 //  //Lo que queremos es grabar la tabla de multiplicar.
 
-const crearArchivo = async ( base = 5, listar = false) => {
+const crearArchivo = async ( base = 5, listar = false, hasta = 10) => {
     try {
         
-        let salida = '';
+        let salida = '', consola = '';
         
         
-        for (let i = 0; i <= 10; i++) {
-            salida += `${base } ${'x'.green} ${i} = ${base * i}\n`;
+        for (let i = 0; i <= hasta; i++) {
+            salida += `${ base } x ${i} = ${base * i}\n`;
+            consola += `${ base } ${'x'.green} ${i} = ${base * i}\n`;
         }
         
         if (listar) {
             console.log('================================='.green);
             console.log('Tabla del:'.green, colors.blue(base));
             console.log('================================='.green);
-            console.log(salida);
+            console.log(consola);
         }
         
         //  //Este metodo recibe un callback que se va a ejecutar cuando

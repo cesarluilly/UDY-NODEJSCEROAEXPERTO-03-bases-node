@@ -128,9 +128,12 @@ configuracion de Yargs independiente.
 Jugar para que en la consola pongamos diferentes colores. 
 Importante ver la documentacion para ver como se utiliza.
 
+![hasta2Consola](./imgReadme/hasta2Consola.jpg)
 
+Si presionamos 
+> `node app --help obtendremos informacion de nuestra aplicacion.`
 
-
+![appHelp2](./imgReadme/appHelp2.jpg)
 
 
 
